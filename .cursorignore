@@ -1,0 +1,18 @@
+# Amiga Development Context
+PLATFORM=Amiga
+COMPILER=SAS/C
+OS=AmigaOS3.x
+ARCHITECTURE=m68k
+STANDARDS=Amiga-SDK-3.2
+
+# Include Paths
+INCLUDES=C:/Amiga/Includes3.2R4/Include_H
+
+# Build Environment
+BUILD_SYSTEM=Make
+COMPILER_FLAGS=-c89 -lamiga
+
+# Project Type
+TYPE=Amiga_Native_Application
+LANGUAGE=C
+CODING_STANDARD=Amiga_C 
